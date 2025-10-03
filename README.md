@@ -1,1 +1,3 @@
 # ACM-ICPC-Team--Algo
+
+This problem where it finds the maximum number of topics two team members can collectively know and how many teams achieve that maximum. The acmTeam function compares every pair of people, counts the total topics known by either member using a simple loop over the topic strings, and keeps track of the highest count and how many teams have that count. The main function handles input reading, trimming, and splitting to prepare the data, then calls acmTeam and outputs the results to a file. Helper functions ltrim, rtrim, and split ensure the input is cleanly processed for robust parsing.
